@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food self</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+          <div id="page-banner">
+            <h1 class="title">Food Self</h1>
+            <p>Foods for yourself</p>
+            <form action="" id="search-Foods">
+              <input type="text" placeholder="Search Food..." />
+            </form>
+          </div>
+        </header>
+        <div class="NameFood">
+          <input type="text" id="NameFood" placeholder="Food Name..."><br>
+          <input type="text"id="NameId" placeholder="Quantity...">
+        </div>
+        <div class="type-of-food">
+           <input type="text"id="price" placeholder="Type of foods..."><br>
+           <input type="text"id="priceId" placeholder="Price...">
+        </div>
+        <form id="add-food">
+          <input id="add-food-textfield" type="text" placeholder="Add a Food..." />
+          <button>+ Add</button>
+        </form>
+        <div id="food-list">
+          <h2 class="title">Foods for eat</h2>
+          <ul>
+            <li>
+              <span class="name">Pizza</span><i class="material-icons">mode_edit</i><span class="delete">delete</span>
+            </li>
+            <li>
+              <span class="name">Junk Food</span><i class="material-icons">mode_edit</i><span class="delete">delete</span>
+            </li>
+            <li>
+              <span class="name">Fast Food</span><i class="material-icons">mode_edit</i><span class="delete">delete</span>
+            </li>
+            <li>
+              <span class="name">Fresh Seafood</span><i class="material-icons">mode_edit</i><span class="delete">delete</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+</body>
+</html>

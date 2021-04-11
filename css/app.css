@@ -1,0 +1,128 @@
+ body{
+     /* background:rgb(39, 70, 83); */
+    background-image: url(2.jpg);
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+ }
+
+ #wrapper{
+    box-shadow: 0 4px 4px 1px rgba(226, 170, 170, 0.2);
+    max-width: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 200px;	
+    font-family: Open Sans;
+    background-color: rgb(70, 86, 94);
+   }
+.title{
+    color: rgb(5, 56, 56);
+}
+   header{
+       background-color: #f5f5f5;	
+       padding-bottom: 20px;
+       text-align: center;
+   }
+#page-banner{
+    background-color: rgb(225, 235, 238);
+}
+   
+   input[type=text] {
+     background-color: white;   
+     padding:5px;
+     width: 50%;
+     box-sizing: border-box;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+   
+   }
+   #add-food{
+       text-align: center;
+       margin-top: 5px;
+   }
+   #search-Foods input[type=text]{
+       width: 150px;  
+       color: rgb(32, 157, 230);
+       border-radius: 70px;
+       text-align: center;
+       padding: 8px;
+     -webkit-transition: width 0.4s ease-in-out;
+     transition: width 0.4s ease-in-out;
+   
+   }
+   
+   #search-Foods input[type=text]:focus{
+       width: 100%;
+   }
+   
+   button{
+    border-radius: 2px;
+    background-color: #007bff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;  	
+    padding:5px 10px;
+    position: relative;
+    top: 1px;  	 	
+    cursor: pointer;
+    margin: 5px;
+   }
+   button:hover{
+       background: #0b7dda; 
+   }
+   
+   #food-list h2{
+       padding-left: 20px;
+   }
+   #food-list{
+       padding-bottom: 10px;
+       font-size: 20px;
+   }
+   ul{
+       list-style-type: none;
+   }
+   li{
+       border-left: 2px solid #f4511e7d;
+       padding: 5px 10px;
+       margin-bottom: 15px;
+   }
+   .delete{
+       border-radius: 2px;
+    background-color: #dc3545;
+
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;  	
+    padding: 10px;
+   
+    cursor: pointer;
+    float: right;
+   }
+   .delete:hover{
+       background: #660a03;
+       padding: 10px;
+   } 
+ .material-icons{    
+    float: right;
+    color: rgb(22, 219, 233); 
+}
+ .NameFood {
+    display: flex;
+    margin: 5px;
+ }
+ .NameFood input{
+     margin: 5px;
+ }
+ .type-of-food{
+     display: flex;
+     margin: 5px;
+ }
+ .type-of-food input{
+    margin: 5px;
+ }
+ #priceId input{
+     color: burlywood;
+ }
